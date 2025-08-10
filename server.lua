@@ -53,3 +53,7 @@ lib.addCommand(Config.Command.name, {
         -- notification here if you want a notification if you toggle the blips
     end
 end)
+
+if Config.VersionCheck then
+    lib.versionCheck('CptnCat/crazy_playerblips')
+end
