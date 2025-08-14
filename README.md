@@ -10,6 +10,7 @@ A lightweight player‑blips script for server owners. Use a simple command (e.g
 - Full support for OneSync (On/Off)  
 - Optimized for performance with minimal server impact
 - Works smoothly on both small and large servers
+- No framework required – works everywhere!
 
 # 💻 How to install?
 - Download the script below
