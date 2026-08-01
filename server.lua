@@ -51,6 +51,7 @@ lib.addCommand(Config.Command.name, {
         -- notification here if you want a notification if you toggle the blips
     else
         -- notification here if you want a notification if you toggle the blips
+        TriggerClientEvent('crazy_playerblips:removePlayerblips', source)
     end
 end)
 
