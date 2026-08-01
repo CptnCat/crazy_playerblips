@@ -56,3 +56,9 @@ RegisterNetEvent("crazy_playerblips:syncPlayerblips", function(players)
     end
 end)
 
+RegisterNetEvent("crazy_playerblips:removePlayerblips", function()
+    for sid, blip in pairs(blips) do
+        if DoesBlipExist(blip) then RemoveBlip(blip) end
+        blips[sid] = nil
+    end
+end)
