@@ -3,7 +3,7 @@ game 'gta5'
 
 author 'EpicCat'
 description 'Playerblips for Admins'
-version '1.0'
+version '1.0.1'
 repository 'https://github.com/CptnCat/crazy_playerblips'
 
 lua54 'yes'
